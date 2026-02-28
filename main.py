@@ -200,7 +200,7 @@ async def account_login(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"**downloading failed 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇™**\n{str(e)}\n**Name** - {𝙎𝘼𝙁𝙀 𝙯𝙊𝙉𝙚}\n**Link** - `{url}`"
+                    f"**downloading failed 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇™**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`"
                 )
                 continue
 
