@@ -22,9 +22,9 @@ import re
 import os
 
 bot = Client("bot",
-             bot_token= "6305751172:AAG3f0lLXE-ivB1r3xP0VSvUfR0nKfURYfM",
-             api_id= 29759544,
-             api_hash= "97030a871720998c6efc5debcce67aa4")
+             bot_token= "7952763523:AAEDuVFshqXJL2vIicFbMYwqQzX12-TkdtE",
+             api_id= 31445635,
+             api_hash= "15c057ca3aa85360ac3d63de52368718")
 
 
 @bot.on_message(filters.command(["start"]))
@@ -200,7 +200,7 @@ async def account_login(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"**downloading failed 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇™**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`"
+                    f"**downloading failed 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇™**\n{str(e)}\n**Name** - {𝙎𝘼𝙁𝙀 𝙯𝙊𝙉𝙚}\n**Link** - `{url}`"
                 )
                 continue
 
